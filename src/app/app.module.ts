@@ -39,29 +39,16 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { FormsModule } from '@angular/forms';
 
 import { SecureComponent } from './layouts/secure/secure.component';
-import { HeaderComponent } from './shared/components/header/header.component';
-import { FooterComponent } from './shared/components/footer/footer.component';
-import { LoginComponent } from './shared/components/login/login.component';
-import { FilterPipe } from './shared/components/filter/filter.pipe';
-import { HomeComponent } from './client/home/home.component';
-import { ApplicationsComponent } from './client/applications/applications.component';
-import { ProductIdeasComponent } from './client/product-ideas/product-ideas.component';
-import { DigitalEmailMarketingComponent } from './client/digital-email-marketing/digital-email-marketing.component';
-import { MailerLiteComponent } from './client/mailer-lite/mailer-lite.component';
+import { HeaderComponent } from './inc/header/header.component';
+import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    ApplicationsComponent,
-    ProductIdeasComponent,
-    DigitalEmailMarketingComponent,
-    MailerLiteComponent,
+    // HomeComponent,
     SecureComponent,
     HeaderComponent,
-    FooterComponent,
     LoginComponent,
-    FilterPipe,
   ],
   imports: [
     BrowserModule,

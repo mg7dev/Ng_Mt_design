@@ -5,30 +5,6 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@-webkit-keyframes "progress-bar-stripes" {
-	from {
-		background-position: 40px 0;
-	}
-	to {
-		background-position: 0 0;
-	}
-}
-@-o-keyframes "progress-bar-stripes" {
-	from {
-		background-position: 40px 0;
-	}
-	to {
-		background-position: 0 0;
-	}
-}
-@keyframes "progress-bar-stripes" {
-	from {
-		background-position: 40px 0;
-	}
-	to {
-		background-position: 0 0;
-	}
-}
 /*# sourceMappingURL=bootstrap.css.map */
 html {
 	font-family: sans-serif;
@@ -10986,4 +10962,14 @@ button.close {
 	.hidden-md {
 		display: none !important;
 	}
+}
+.bg-img{
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
 }
