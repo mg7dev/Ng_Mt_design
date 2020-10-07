@@ -33,6 +33,8 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 8px 16px;
+  box-shadow: #00000030 0px 3px 6px;
+  height: 66px;
 
   > .mat-button {
     &:last-child {
@@ -318,4 +320,8 @@ div.menu li.animate:nth-of-type(6){
 	top:470px;
 	transition-delay: 0.15s;	
 			
+}
+.top-items{
+	font-size: 19px;
+	font-weight: bold;
 }
