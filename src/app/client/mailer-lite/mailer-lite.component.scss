@@ -1,0 +1,405 @@
+// The margin between two sections
+$margin-promotion-sections: 50px;
+$margin-promotion-sections-small: 15px;
+
+.pr-1 {
+  padding-right: 1rem !important;
+}
+.pl-1 {
+  padding-left: 1rem !important;
+}
+.pr-2 {
+  padding-right: 2rem !important;
+}
+.pl-2 {
+  padding-left: 2rem !important;
+}
+.pr-3 {
+  padding-right: 3rem !important;
+}
+.pl-3 {
+  padding-left: 3rem !important;
+}
+.pr-4 {
+  padding-right: 4rem !important;
+}
+.pl-4 {
+  padding-left: 4rem !important;
+}
+.pr-5 {
+  padding-right: 5rem !important;
+}
+.pl-5 {
+  padding-left: 5rem !important;
+}
+.pr-6 {
+  padding-right: 6rem !important;
+}
+.pl-6 {
+  padding-left: 6rem !important;
+}
+.pt-2 {
+  padding-top: 2rem !important;
+}
+.pb-2 {
+  padding-bottom: 2rem !important;
+}
+.p-1 {
+  padding: 1rem !important;
+}
+.p-2 {
+  padding: 2rem !important;
+}
+.p-3 {
+  padding: 3rem !important;
+}
+.p-4 {
+  padding: 4rem !important;
+}
+.p-6 {
+  padding: 6rem !important;
+}
+.p-5 {
+  padding: 5rem !important;
+}
+.p-7 {
+  padding: 7rem !important;
+}
+.p-8 {
+  padding: 8rem !important;
+}
+.p-9 {
+  padding: 9rem !important;
+}
+.p-10 {
+  padding: 10rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0rem;
+}
+
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.align-middle {
+  vertical-align: middle !important;
+}
+.align-botttom {
+  vertical-align: bottom !important;
+}
+
+
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+.border-radius-10 {
+  border-radius: 10px !important;
+}
+
+
+.bg-white {
+  background-color: white;
+}
+
+
+.d-flex {
+  display: flex !important;
+}
+.d-inline-flex {
+  display: inline-flex !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.d-table-cell {
+  display: table-cell !important;
+}
+.d-table {
+  display: table !important;
+}
+
+
+.mt-4 {
+  margin-top: 4rem !important;
+}
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+.ml-1 {
+  margin-left: 1rem !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+.w-75 {
+  width: 75% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+.h-75 {
+  height: 75% !important
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+.position-relative {
+  position: relative !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+// ////////////////////////////
+// .f-section {
+//   background-color: #f7faff;
+//   background: url('../../../assets//images/etan7/Mask@1X.png');
+// }
+.malier-lite-logo {
+  float: right;
+  display: inline-table;
+  margin: 4rem 1rem;
+  transform: translate(-30%, 0px);
+  img{
+    width: 100px;
+    padding: 3rem 1rem;
+  }
+}
+.mailer-lite-logo-btn {
+  // display: inline-block;
+  // flex-direction: column-reverse;
+  // height: 70%;
+  padding-top: 60px;
+}
+.mailer-dot-group {
+  padding: 15px 10px;
+  display: inline-table;
+  margin: 4rem 0;
+  float: left;
+  img {
+    width: 59px;
+    margin: 0 1rem;
+  }
+}
+.mailer-h-text {
+  height: 350px;
+  background-color: #f7faff;
+}
+.mailer-h-center {
+  margin-top: 4rem;
+}
+.mailer-stars{
+  padding: 3px 0px;
+}
+/////////////
+.mailer-btn {
+  padding: 8px 20px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 5px;
+  &:focus {
+    outline: none;
+  }
+}
+.mailer-btn-white {
+  padding: 8px 20px;
+  background-color: #ffffff;
+  color: #0071E3;
+  border-radius: 5px;
+  &:focus{
+    outline: none;
+  }
+}
+.mailer-overview-text {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
+.mailer-image-intro {
+  width: 80%;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  display: inline-block;
+  transform: translate(10%, 0%);
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #F0F4FA;
+  // transform: translate(-40%, -50%);
+  .mailer-image {
+    width: 100%;
+    // top: -100px;
+  }
+  .under-image {
+    float: left;
+    img {
+      width: 20%;
+      margin: 3px;
+    }
+  }
+}
+.mailer-overview-image1 {
+  display: block;
+}
+.mailer-overview-image2 {
+  display: none;
+}
+.mailer-one-click-img1 {
+  text-align: center;
+  display: none;
+}
+.mailer-one-click-img2 {
+  text-align: center;
+  display: block;
+}
+.mailer-one-click {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.mailer-submit-btn {
+  display: inline-flex;
+  height: 100%;
+  flex-direction: column-reverse;
+}
+.mailer-submit-idea {
+  // background: url('./assets/images/etan7/Mask@222.png');
+  background-size: 100% 100% !important;
+  padding: 8rem 0 4rem 0;
+  height: 7rem;
+}
+.mailer-submit-idea-text {
+  display: inline-block;
+  text-align: left;
+  width: 75%;
+  color: white;
+}
+.mailer-feature-img1 {
+  text-align: center;
+  display: block;
+}
+.mailer-feature-img2 {
+  text-align: center;
+  display: none;
+}
+.mailer-feature-text {
+  display: inline-block;
+  width: 75%;
+  text-align: left;
+}
+@media (max-width: 1115px) {
+  .mailer-dot-group {
+    img {
+      width: 36px;
+      margin: 0px 1rem;
+    }
+  }
+  .malier-lite-logo {
+    float: unset;
+    img {
+      display: inline-table;
+      margin: 0;
+      width: 52px;
+      padding: 2rem 0.5rem;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .mailer-h-text {
+    height: 500px;
+    text-align: center;
+  }
+  .malier-lite-logo {
+    img{
+      width: 100px;
+      padding: 3rem 1rem;
+    }
+  }
+  .mailer-lite-logo-btn {
+    padding-top: 0px;
+  }
+  .malier-lite-logo {
+    margin: 1rem 1rem;
+    transform: translate(-30%, 0%);
+  }
+  .mailer-h-center {
+    margin-top: 0;
+  }
+  .mailer-h-center{
+    margin: 1rem 1rem;
+  }
+  .mailer-dot-group {
+    margin: 2rem 0;
+  }
+  .mailer-image-intro {
+    top: 0;
+    position: unset;
+    margin: 10px 0;
+  }
+  .mailer-overview-image1 {
+    display: none;
+  }
+  .mailer-overview-image2 {
+    display: block;
+  }
+  .mailer-overview-text {
+    width: 90%;
+    .mailer-overview-image2 {
+      margin: 10px 0;
+    }
+  }
+  .mailer-one-click-img2 {
+    text-align: center;
+    display: none;
+  }
+  .mailer-one-click-img1 {
+    text-align: center;
+    display: block;
+    margin: 10px 0px;
+  }
+  .mailer-one-click {
+    width: 90%;
+    h3 {
+      text-align: center;
+    }
+    // text-align: left;
+  }
+  .mailer-submit-idea {
+    padding: 5rem 5% 6rem 5%;
+    background-size: 110% 100% !important;
+  }
+  .mailer-submit-btn {
+    margin-top: 10px;
+    float: left;
+  }
+  .mailer-submit-idea-text {
+    width: 100%;
+  }
+  .mailer-feature-img1 {
+    display: none;
+  }
+  .mailer-feature-img2 {
+    display: block;
+  }
+  .mailer-feature-text {
+    width: 90%;
+  }
+}

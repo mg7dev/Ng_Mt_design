@@ -3,9 +3,13 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "myapp123": {
+    "Etan-Approval-UI": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/myapp123",
+            "outputPath": "dist/Etan-Approval-UI",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -62,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "myapp123:build"
+            "browserTarget": "Etan-Approval-UI:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "myapp123:build:production"
+              "browserTarget": "Etan-Approval-UI:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "myapp123:build"
+            "browserTarget": "Etan-Approval-UI:build"
           }
         },
         "test": {
@@ -88,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -110,15 +114,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "myapp123:serve"
+            "devServerTarget": "Etan-Approval-UI:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "myapp123:serve:production"
+              "devServerTarget": "Etan-Approval-UI:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "myapp123"
+    }
+  },
+  "defaultProject": "Etan-Approval-UI",
+  "cli": {
+    "analytics": "d756e228-badd-4f91-9484-f344a0f7613a"
+  }
 }
