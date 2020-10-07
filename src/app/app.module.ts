@@ -37,10 +37,26 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { FormsModule } from '@angular/forms';
+import {A11yModule} from '@angular/cdk/a11y';
+import {ClipboardModule} from '@angular/cdk/clipboard';
+import {DragDropModule} from '@angular/cdk/drag-drop';
+import {PortalModule} from '@angular/cdk/portal';
+import {ScrollingModule} from '@angular/cdk/scrolling';
+import {CdkStepperModule} from '@angular/cdk/stepper';
+import {CdkTableModule} from '@angular/cdk/table';
+import {CdkTreeModule} from '@angular/cdk/tree';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatNativeDateModule, MatRippleModule} from '@angular/material/core';
+import {OverlayModule} from '@angular/cdk/overlay';
 
 import { SecureComponent } from './layouts/secure/secure.component';
 import { HeaderComponent } from './inc/header/header.component';
 import { LoginComponent } from './auth/login/login.component';
+import { MainComponent } from './main/main.component';
+import { PurchaseComponent } from './main/purchase/purchase.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { UsersComponent } from './main/users/users.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +65,10 @@ import { LoginComponent } from './auth/login/login.component';
     SecureComponent,
     HeaderComponent,
     LoginComponent,
+    MainComponent,
+    PurchaseComponent,
+    RegisterComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
@@ -87,6 +107,7 @@ import { LoginComponent } from './auth/login/login.component';
     MatSortModule,
     MatPaginatorModule,
     FormsModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

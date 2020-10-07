@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+  }
+.mt-tbl-chked{
+  width:50px;
+}
+.mt-tbl-userid ,.mt-tbl-fname ,.mt-tbl-lname{
+  text-align: center;
+}
+.pt-3{
+  padding-top: 3rem;
+}
+.mb-3{
+  margin-bottom: 3rem;
+}
+.m-3{
+  margin: 3rem!important;
+
+}
+.m-1{
+  margin: 1rem;
+}
+.search-input{
+  float: right;
+  display: grid;
+  padding-right: 100px;
+}
